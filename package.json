@@ -2,13 +2,15 @@
   "name": "genetic-algorithm",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "start": "webpack serve --open",
+    "build": "webpack --config webpack.config.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Your Name",
+  "license": "MIT",
   "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "html-webpack-plugin": "^5.3.2",
     "ts-loader": "^9.2.6",
     "typescript": "^4.4.3",
     "webpack": "^5.58.2",
